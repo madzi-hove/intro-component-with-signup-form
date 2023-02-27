@@ -15,19 +15,34 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: "Poppins", sans-serif;
 	background: center / contain url(../images/bg-intro-mobile.png) no-repeat
 		var(--red);
 }
 
 /* container styles */
 .container {
-	inline-size: 85%;
-	border: 1px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 85%;
+	/* width: 650px; */
+	/* border: 1px solid blue; */
 }
 
 .container__item {
+	flex: 1 1 325px;
 	text-align: center;
-	border: 1px solid red;
+	/* border: 1px solid blue; */
+}
+
+/* header */
+.header {
+	color: white;
+	margin: 4.5rem 0 4.5rem;
+}
+
+.header__heading {
+	line-height: 1.2;
 }
 
 .attribution {
