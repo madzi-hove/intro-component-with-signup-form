@@ -1,3 +1,35 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* general styles */
+:root {
+	--red: hsl(0, 100%, 74%);
+	--green: hsl(154, 59%, 51%);
+	--blue: hsl(248, 32%, 49%);
+	--dark-blue: hsl(249, 10%, 26%);
+	--greyish-blue: hsl(246, 25%, 77%);
+}
+
+/* background styles */
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: center / contain url(../images/bg-intro-mobile.png) no-repeat
+		var(--red);
+}
+
+/* container styles */
+.container {
+	inline-size: 85%;
+	border: 1px solid blue;
+}
+
+.container__item {
+	text-align: center;
+	border: 1px solid red;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
