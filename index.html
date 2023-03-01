@@ -33,18 +33,24 @@
           <li class="list__item">
             <label for="fname" class="screen-reader">First Name</label>
             <input type="text" id="fname" name="fname" class="main__input" placeholder="First Name">
-          </li>
+            <label for="fname" class="hidden error-message">First Name cannot be empty</label} </li>
           <li class="list__item">
             <label for="lname" class="screen-reader">Last Name</label>
             <input type="text" id="lname" name="lname" placeholder="Last Name" class="main__input">
+            <label for="lname" class="hidden error-message">Last Name cannot be empty</label>
+
           </li>
           <li class="list__item">
             <label for="email" class="screen-reader">Email Address</label>
             <input type="text" id="email" name="email" placeholder="Email Address" class="main__input">
+            <label for="email" class="hidden error-message">Looks like this is not an Email</label>
+
           </li>
           <li class="list__item">
             <label for="pwd" class="screen-reader">Password</label>
             <input type="text" id="pwd" name="pwd" placeholder="Password" class="main__input">
+            <label for="fname" class="hidden error-message">Password cannot be empty</label>
+
           </li>
         </ul>
         <button class="form__btn">Claim your free trial</button>
